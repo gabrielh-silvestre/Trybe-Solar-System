@@ -8,7 +8,7 @@ export default class PlanetCard extends Component {
     return (
       <section className="m-4 text-center" data-testid="planet-card">
         <h3 className="text-lg" data-testid="planet-name">{planetName}</h3>
-        <img className="bg-gradient-planetCard py-6" src={ planetImage } alt={ `Planeta ${planetName}` } />
+        <img className="bg-gradient-planetCard py-6 mx-auto" src={ planetImage } alt={ `Planeta ${planetName}` } />
       </section>
     );
   }
