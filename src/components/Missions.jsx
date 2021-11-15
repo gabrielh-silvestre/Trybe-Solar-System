@@ -6,8 +6,8 @@ import MissionCard from './MissionCard';
 export default class Missions extends Component {
   render() {
     return (
-      <article data-testid="missions">
-        <Title headline="Missões" className="text-xl text-center font-bold" />
+      <article className="mt-4 md:grid md:grid-cols-2" data-testid="missions">
+        <Title headline="Missões" className="text-xl text-center font-bold md:col-span-full" />
         {missions
           .map(({ name, year, country, destination }) => (
             <MissionCard
