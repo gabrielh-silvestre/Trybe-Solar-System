@@ -6,11 +6,11 @@ export default class MissionCard extends Component {
     const { name, year, country, destination } = this.props;
 
     return (
-      <div data-testid="mission-card">
-        <h3 data-testid="mission-name">{name}</h3>
-        <p data-testid="mission-year">{year}</p>
-        <p data-testid="mission-country">{country}</p>
-        <p data-testid="mission-destination">{destination}</p>
+      <div className="m-4 py-4 text-center shadow-md rounded-lg" data-testid="mission-card">
+        <h3 className="text-lg" data-testid="mission-name">{name}</h3>
+        <p className="py-1" data-testid="mission-year">{year}</p>
+        <p className="py-1" data-testid="mission-country">{country}</p>
+        <p className="py-1" data-testid="mission-destination">{destination}</p>
       </div>
     );
   }
