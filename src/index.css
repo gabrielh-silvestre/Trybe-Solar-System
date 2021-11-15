@@ -21,3 +21,23 @@
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e40af",endColorstr="#111827",GradientType=1);
 }
+
+.bg-gradient-planetCard {
+  background: rgb(55, 65, 81);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(55, 65, 81, 1) 0%,
+    rgba(17, 24, 39, 1) 70%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(55, 65, 81, 1) 0%,
+    rgba(17, 24, 39, 1) 70%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(55, 65, 81, 1) 0%,
+    rgba(17, 24, 39, 1) 70%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#374151",endColorstr="#111827",GradientType=1);
+}
