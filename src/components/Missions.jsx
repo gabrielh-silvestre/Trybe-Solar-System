@@ -6,7 +6,7 @@ import MissionCard from './MissionCard';
 export default class Missions extends Component {
   render() {
     return (
-      <div data-testid="missions">
+      <article data-testid="missions">
         <Title headline="Missões" className="text-xl text-center font-bold" />
         {missions
           .map(({ name, year, country, destination }) => (
@@ -18,7 +18,7 @@ export default class Missions extends Component {
               destination={ destination }
             />
           ))}
-      </div>
+      </article>
     );
   }
 }
