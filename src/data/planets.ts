@@ -7,7 +7,12 @@ import SaturnoImg from '../images/Saturno.png';
 import Uranoimg from '../images/Urano.png';
 import Netunoimg from '../images/Netuno.png';
 
-const Planets = [
+type PlanetsData = {
+  name: string;
+  image: string;
+}
+
+const Planets: PlanetsData[] = [
   { name: 'Mercúrio', image: MercurioImg },
   { name: 'Vênus', image: VenusImg },
   { name: 'Terra', image: TerraImg },
