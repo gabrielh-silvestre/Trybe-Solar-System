@@ -1,7 +1,14 @@
 const USA = 'Estados Unidos';
 const URSS = 'URSS';
 
-const Missions = [
+type MissionsData = {
+  name: string;
+  year: string;
+  country: string;
+  destination: string;
+}
+
+const Missions: MissionsData[] = [
   {
     name: 'Apollo 11',
     year: '1960',
